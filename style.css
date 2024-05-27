@@ -54,7 +54,7 @@ img{
 /*tempo de preparação*/
 
 .tempo {
-    height: 170px;
+    min-height: 170px;
     max-width: 650px;
     border: none;
     border-radius: 15px;
