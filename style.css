@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+   
+}
+
+body{
+    background: hsl(30, 54%, 90%);
+    display: block;
+    text-align: center;
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.card{
+    padding: 30px;
+    margin-top: 30px;
+    background: white;
+    max-width:  700px;
+    border-radius: 15px;
+}
+
+/*descrição */
+
+.desc h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.desc p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/*tempo de preparação*/
+
+.tempo {
+    height: 170px;
+    max-width: 650px;
+    border: none;
+    border-radius: 15px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 30px;
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.tempo h2{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+}
+
+.tempo li {
+    list-style: disc;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 10px ;
+    color: hsl(332, 51%, 32%);
+}
+
+.tempo span {
+    color: black;
+    
+}
+
+
+
+/* ingredientes */
+
+.ingredientes{
+    padding: 20px;
+    text-align: left;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.027);
+}
+
+.ingredientes h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+}
+
+.ingredientes li{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    color: hsl(14, 45%, 36%);
+
+}
+
+.ingredientes span {
+    color: black;
+    margin-left: 10px;
+}
+
+/* intruções */
+
+.intrucoes {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.027);
+}
+
+.intrucoes h2 {
+    
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: hsl(14, 45%, 36%);
+        margin-bottom: 15px;
+    
+}
+
+.intrucoes li {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    list-style: decimal;
+    color: hsl(14, 45%, 36%) ;
+    font-weight: bolder;
+    
+}
+
+.intrucoes span {
+    color: black;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.nutri {
+    padding: 20px;
+    text-align: left;
+}
+
+.table {
+    margin-bottom: 15px;
+}
+.table span {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.027);
+    align-items: center;
+    padding: 8px 0;
+}
+.table strong {
+    color: hsl(14, 45%, 36%);
+    margin-left: 10px;
+    font-weight: bolder;
+    text-align: right;
+    flex-shrink: 0;
+}
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+}
+p {
+    margin-bottom: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+}
+
+
+
+
+
+
